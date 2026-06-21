@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "furano-science-club-site",
+  "compatibility_date": "2026-06-21",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "."
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "firefly-db",
+      "database_id": "263d2c53-ed6c-48f0-ad9b-f1ae53ea30a5"
+    }
+  ]
+}
